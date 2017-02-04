@@ -1,0 +1,65 @@
+body {
+    background-color: #4d4d4d;
+    background-image: url("wiki_logo.svg.png");
+    background-position: top;
+    background-blend-mode: darken;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    color: #cccccc;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.button {
+    text-align: center;
+}
+
+.result {
+    border-radius: 10px;
+    display: none;
+    width: 60%;
+    margin: auto;
+    background-color: #808080;
+    color: #333333;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+#searchField {
+    color: #cccccc;
+    background-color: #333333;
+}
+
+.submit {
+    background-color: #333333;
+    color: #cccccc;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: white;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
